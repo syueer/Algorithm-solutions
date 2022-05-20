@@ -3,16 +3,10 @@ const reverse = (x: number): number => {
   while (x != 0) {
     let a: number;
     let b: number;
-    let c: number;
-    a = x / 10;
-    if (a < 0) {
-      c = Math.ceil(a);
-    } else {
-      c = Math.floor(a);
-    }
+    a = Math.trunc(x / 10);
     b = x % 10;
     result = result * 10 + b;
-    x = c;
+    x = a;
   }
   if (result < (-2) ** 31 || result > 2 ** 31 - 1) {
     return 0;
