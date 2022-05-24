@@ -14,5 +14,3 @@ const reverse = (x: number): number => {
 
   return result;
 };
-
-console.log(reverse(123));
