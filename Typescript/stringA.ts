@@ -3,8 +3,7 @@
 //"a" must before "b" return true, otherwise false
 // all the index of "a" must less than "b", return true
 
-let n = ['aabbb', 'aaa', 'baab', 'ba', 'bb', 'aab', 'abba', 'accc', 'abcd'];
-
+let N = ['aabbb', 'aaa', 'baab', 'ba', 'bb', 'aab', 'abba', 'accc', 'abcd'];
 const findIndex = (n: string[]): boolean[] => {
   let result: boolean[] = [];
   for (let s of n) {
@@ -33,4 +32,4 @@ const findIndex = (n: string[]): boolean[] => {
   return result;
 };
 
-console.log(findIndex(n));
+console.log(findIndex(N));
