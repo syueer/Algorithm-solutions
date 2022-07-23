@@ -1,4 +1,4 @@
-//n is an int with the range [1,300,00]
+//n is an int with the range [0,300,00]
 //s only consists only "a" and "b" , or just "a" or just "b" return true
 //"a" must before "b" return true, otherwise false
 // all the index of "a" must less than "b", return true
